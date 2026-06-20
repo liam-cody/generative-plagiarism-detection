@@ -1,0 +1,22 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ruff-check
+        name: ruff check
+        entry: &venv_python .venv/bin/python
+        args: [-m, ruff, check, --fix]
+        language: system
+        files: \.pyi?$
+      - id: ruff-format
+        name: ruff format
+        entry: *venv_python
+        args: [-m, ruff, format]
+        language: system
+        files: \.pyi?$
+      - id: pyright
+        name: pyright
+        entry: *venv_python
+        args: [-m, pyright]
+        language: system
+        files: \.pyi?$
+        pass_filenames: false
