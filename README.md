@@ -36,4 +36,22 @@ The system was built for scientific source retrieval, but most of the pipeline i
 
 ## 📚 Citation
 
-The paper citation will be added when the PAN 2026 proceedings are available.
+[Read the paper](https://ceur-ws.org/Vol-4283/paper400.pdf)
+
+If you use this work, please cite:
+
+```bibtex
+@InProceedings{cody:2026,
+  author = {Liam Kaan Cody and Peter Felix Panzitt and James Ernst Cox},
+  title = {{Team JLP at PAN 2026: Span-Based Hybrid Source Retrieval for Generative Plagiarism Detection}},
+  booktitle = {{Working Notes of CLEF 2026 - Conference and Labs of the Evaluation Forum}},
+  editor = {Eva S{\'a}nchez Salido and Alberto Barr{\'o}n-Cede{\~n}o and Alba Garc{\'i}a Seco Herrera and Sean MacAvaney and Julia Maria Stru{\ss}},
+  month = sep,
+  pages = {5439--5449},
+  publisher = {CEUR-WS.org},
+  venue = {Jena, Germany},
+  volume = 4283,
+  year = 2026,
+  url = {https://ceur-ws.org/Vol-4283/paper400.pdf}
+}
+```
